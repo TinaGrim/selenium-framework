@@ -1,29 +1,24 @@
 # Automatic Bot Application
 
-Welcome to the **Automatic Bot Application**! This project is a GUI application built with PySide6 that automates browser interactions using Selenium. It lets you input application names, browser links, and XPaths to perform automated actions like clicking and typing on web elements.
+**Automatic Bot Application**
+Built with PySide6 that automates browser interactions using Selenium.
 
 ---
-
 ## Features
 
-- **User-Friendly Interface**: Built with PySide6, providing an intuitive interface.
-- **Browser Automation**: Uses Selenium to automate browser actions.
-- **Dynamic Input Handling**: Accepts user inputs for application names, browser links, and XPaths.
-- **Output Logging**: Saves automation scripts and logs to a Python file (`text_output_pyside6.py`).
-- **Customizable Actions**: Supports both "Click" and "Write" actions.
-
+- **Repeatedly Actions**:Uses Selenium to automate browser actions.
 ---
 
 ## How It Works
 
 1. **Setup**:
    - The application initializes a GUI with input fields and buttons.
-   - Users can input the application name, browser link, and XPaths for automation.
+   - Users can input the application name, browser link.
 
 2. **Input Handling**:
-   - The `lineeditApp` field for application name.
-   - The `lineeditLink` field for browser link.
-   - The `lineeditInput` field for XPaths.
+   - Application name.
+   - Browser link.
+   - XPaths.
 
 3. **Automation**:
    - Toggle between "Click" and "Write" modes.
@@ -75,6 +70,7 @@ Welcome to the **Automatic Bot Application**! This project is a GUI application 
    
 3. **Add XPaths**:
    - Enter the XPath of the web element in the "Add" field.
+   - How to get it (inspect object in your chrome right by looking at copy options and choose full xpath
    - Choose between "Click" or "Write" modes to specify the action.
    
 4. **Generate Script**:
@@ -85,8 +81,6 @@ Welcome to the **Automatic Bot Application**! This project is a GUI application 
    - Open the generated script and execute it to perform the automation.
 
 ### Example
-
-Here's an example of how to use the application:
 
 1. Enter "MyApp" in the "Name" field.
 2. Enter "example.com" in the "Browser" field.
@@ -105,4 +99,3 @@ For any questions or feedback, please contact [tinasora5553@gmail.com](mailto:ti
 
 ---
 
-This README is designed to help users understand your project, its purpose, and how to use it effectively. It also includes tags to improve discoverability.
