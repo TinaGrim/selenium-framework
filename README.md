@@ -7,78 +7,21 @@ Built with PySide6 that automates browser interactions using Selenium.
 ## Features
 
 - **Repeatedly Actions**:Uses Selenium to automate browser actions.
+  
 ---
 
-## How It Works
-
-1. **Setup**:
-   - The application initializes a GUI with input fields and buttons.
-   - Users can input the application name, browser link.
-
-2. **Input Handling**:
-   - Application name.
-   - Browser link.
-   - XPaths.
-
-3. **Automation**:
-   - Toggle between "Click" and "Write" modes.
-   - Generates Selenium-based Python scripts for the specified actions.
-
-4. **Output**:
-   - Generated scripts are saved to `text_output_pyside6.py`.
-   - Option to open the output file directly from the application.
-
----
-
-## How to Use
-
-### Prerequisites
-
-- Python 3.8 or higher
-- Required Python libraries:
-  - `PySide6`
-  - `selenium`
-  - `pystyle`
-  - `undetected_chromedriver`
-- Google Chrome installed
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/arien007/Selenium_Framework.git
+
+   ```:)
+   git clone https://github.com/TinaGrim/selenium_framework.git
    cd Selenium_Framework
-   ```
-
-2. Install dependencies:
-   ```bash
    pip install -r requirements.txt
-   ```
-
-3. Run the application:
-   ```bash
    python main.py
    ```
 
-### Using the Application
 
-1. **Input Application Name**:
-   - Enter the name of your application in the "Name" field.
-   
-2. **Input Browser Link**:
-   - Enter the URL of the website you want to automate in the "Browser" field.
-   
-3. **Add XPaths**:
-   - Enter the XPath of the web element in the "Add" field.
-   - How to get it (inspect object in your chrome right by looking at copy options and choose full xpath
-   - Choose between "Click" or "Write" modes to specify the action.
-   
-4. **Generate Script**:
-   - Click the "Ready" button to generate the automation script.
-   - The script will be saved to `text_output_pyside6.py`.
-
-5. **Run Automation**:
-   - Open the generated script and execute it to perform the automation.
 
 ### Example
 
@@ -89,9 +32,6 @@ Built with PySide6 that automates browser interactions using Selenium.
 5. Click "Ready" to generate the script.
 6. Open `text_output_pyside6.py` to view the generated script.
 
-### Contributing
-
-Feel free to fork this repository and submit pull requests. Contributions are welcome!
 
 ### Contact
 
