@@ -25,14 +25,15 @@ Built with PySide6 that automates browser interactions using Selenium.
 
 ### Example
 
-1. Enter "MyApp" in the "Name" field.
-2. Enter "example.com" in the "Browser" field.
-3. Add an XPath (e.g., `/html/body/div[1]/.../div[1]/form/div[5]/a`) in the "Add" field.
-4. Select "Click" mode and click "Add".
+1. Enter "MyApp"
+2. Enter "example.com"
+3. Add an XPath (`/html/body/div[1]/.../div[1]/form/div[5]/`)
+4. "Click" mode or "Add" mod
 5. Click "Ready" to generate the script.
-6. Open `text_output_pyside6.py` to view the generated script.
+6. ouput as `text_output_pyside6.py`.
 
-
+## Picture
+<img src='selenium.png' width='800'>
 ### Contact
 
 For any questions or feedback, please contact [tinasora5553@gmail.com](mailto:tinasora5553@gmail.com).

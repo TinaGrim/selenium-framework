@@ -5,8 +5,6 @@ from xmlrpc.client import boolean
 from PySide6.QtGui import *
 from PySide6.QtCore import *
 from PySide6.QtWidgets import * #QApplication, QLabel, QMainWindow, QLineEdit, QVBoxLayout, QWidget
-#clear if exists
-import requests
 from pystyle import *
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -14,11 +12,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromeService
-import time
 from time import sleep
-import keyboard as kb
-import json
-import undetected_chromedriver as uc
+# import keyboard as kb
+# import undetected_chromedriver as uc
 
 options = Options()
 options.page_load_strategy = 'eager'
@@ -110,7 +106,7 @@ class MainWindow(QMainWindow):
         
         central = QWidget()
         self.setCentralWidget(central)
-        central.setStyleSheet("background-color: rgb(59, 58, 61);")
+        central.setStyleSheet("background-color: rgb(39, 41, 54);")
         # path = os.path.join(os.getcwd(), "Screenshot_2025-03-19_125716.ico")
         self.setWindowIcon(QIcon(script_dir))
         self.setLayout(None)
